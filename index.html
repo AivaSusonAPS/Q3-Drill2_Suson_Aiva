@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: beige;
+        }
+        input {
+            margin: 10px;
+            text-align: center;
+        }   
+        form {
+                text-align: center;
+            }
+    </style>
+    <form>
+        <input type="number" id="base" placeholder="Enter your base"> <br>
+        <input type="number" id="height" placeholder="Enter your height"> <br>
+        <input type="button" onmouseover="compute_area()"value="Compute">
+    </form>
+    <div id="output" style="color:hotpink; font-size:100px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align:center"></div>
+    <script src="main.js"></script>
+</body>
+</html>
